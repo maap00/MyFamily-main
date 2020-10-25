@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  width: 350px;
+  padding: 10px;
+  margin: 0 26px;
+}
+
+body {
+  background: #e2bb18;
+  font-family: verdana;
+}
+
+.container {
+  width: 1200px;
+  background: white;
+  margin: 10px auto;
+}
+
+.superior {
+  background: #e7712f;
+  overflow: auto;
+}
+
+/** Estilos para el menu **/
+.menu {
+  float: left;
+  padding: 45px;
+}
+
+.opciones li {
+  float: left;
+  list-style: none;
+}
+
+.opciones li a {
+  background: #f4d0a7;
+  color: #000000;
+  float: right;
+  padding: 15px;
+  text-decoration: none;
+  border: 1px solid #bababa;
+  border-radius: 10px;
+  margin-right: 5px;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.opciones li a:hover {
+  background: #e2bb18;
+}
+
+/* Estilos para el cuerpo*/
+.cuerpo {
+  text-align: center;
+  padding: 10px color: #8b4506;
+}
+
+.titulo {
+  color: #cf7d33;
+  padding: 10px;
+}
+
+.caja {
+  width: 1200px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 5px 0;
+  border: 1px solid #bababa;
+}
+
+.caja2 {
+  width: 1200px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 5px 0;
+  border: 1px 0 0.5px solid #bababa;
+}
+
+.contenido {
+  padding: 10px;
+  width: 600px;
+  margin: 40px 0;
+  text-align: inherit;
+  font-weight: bold;}
+
+.contenido2 {
+  width: 520px;
+  font-weight: bold;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+
+.sustitulo {
+  background: #f58749
+}
+
+.info {
+  color: white;
+  font-style: italic;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.efecto:hover {
+  opacity: 0.8;
+}
+
+.boton {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  margin: 50px 0 0;
+  border-radius: 10px;
+  background: #e7712f;
+}
+
+.boton:hover {
+  background: #e2bb18;
+}
+
+.pie {
+  background: #e7712f;
+  overflow: hidden;
+}
+
+.redes {
+  display: flex;
+  justify-content:  center;
+  padding: 35px;
+
+}
+
+.siguenos {
+  text-align: center;
+  width: 600px;
+  margin: 0 7px 20px;
+  color: #e2bb18;
+  font-size: 25px;
+}
+
+.contenidopie {
+  color: white;
+  margin: 20px;
+  float: right;
+  width: 550px;
+}
