@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.logo {
+.nav {
   float: left;
   width: 350px;
   padding: 10px;
@@ -15,7 +15,7 @@ body {
   font-family: verdana;
 }
 
-.container {
+.container1 {
   width: 1200px;
   background: white;
   margin: 10px auto;
@@ -24,10 +24,13 @@ body {
 .superior {
   background: #e7712f;
   overflow: auto;
+  margin: 0 0 1px;
+
 }
 
 /** Estilos para el menu **/
 .menu {
+
   float: left;
   padding: 45px;
 }
@@ -41,13 +44,13 @@ body {
   background: #f4d0a7;
   color: #000000;
   float: right;
-  padding: 15px;
+  padding: 5px;
   text-decoration: none;
   border: 1px solid #bababa;
   border-radius: 10px;
   margin-right: 5px;
   font-family: fantasy;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .opciones li a:hover {
@@ -86,7 +89,8 @@ body {
   width: 600px;
   margin: 40px 0;
   text-align: inherit;
-  font-weight: bold;}
+  font-weight: bold;
+}
 
 .contenido2 {
   width: 520px;
@@ -132,7 +136,7 @@ body {
 
 .redes {
   display: flex;
-  justify-content:  center;
+  justify-content: center;
   padding: 35px;
 
 }
