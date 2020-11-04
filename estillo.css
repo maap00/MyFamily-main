@@ -15,6 +15,10 @@ body {
   font-family: verdana;
 }
 
+html {
+  line-height: 1.5;
+}
+
 .container1 {
   width: 1200px;
   background: white;
@@ -25,8 +29,63 @@ body {
   background: #e7712f;
   overflow: auto;
   margin: 0 0 1px;
-
 }
+
+/** Estilo CAROUSEL **/
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%
+}
+
+.carousel {
+  overflow: center;
+  position: relative;
+  width: 100%;
+  width: 1200px;
+  height: 500px;
+}
+
+.carousel .carousel-item {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.carousel .indicators {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0
+}
+
+.carousel .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 24px 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  border-radius: 50%
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: orange;
+}
+
+
+
 
 /** Estilos para el menu **/
 .menu {
